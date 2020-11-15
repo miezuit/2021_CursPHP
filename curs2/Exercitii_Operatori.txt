@@ -152,4 +152,16 @@ print("<br/>");
 
 $username2 = isset($user) ? $user : 'not access';
 print($username2);
+
+22.Ce v-a afisa urmatorul code PHP?
+$x = true;
+$y = false;
+
+$z = $x and $y;
+$w = $x && $y;
+
+var_dump($z);
+var_dump($w);
+
+// atentie la prioritate: = are prioritate mai mare decat and
 ?>  

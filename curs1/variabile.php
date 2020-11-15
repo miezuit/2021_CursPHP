@@ -46,3 +46,28 @@
 //var_dump($GLOBALS);
 
 // $_GET  $_POST  
+
+// 8 
+// $data = new DateTime();
+// var_dump($data);
+
+// 9
+// $fructe = array("mar", "para", "kiwi");
+// var_export($fructe);
+// var_dump($fructe);
+// print_r($fructe);
+// echo $fructe;
+// print($fructe);
+
+//10 
+// $car[0][0] = "GM";
+// $car[0][1] = "Cobalt";
+// $car[0][2] = "Onix";
+// $car[0][3] = "Camaro";
+
+// $car[1][0] = "Ford";
+// $car[1][1] = "Fiesta";
+// $car[1][2] = "Fusion";
+// $car[1][3] = "Eco Sport";
+// var_export($car);
+// echo $car[1][2];
