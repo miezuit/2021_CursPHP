@@ -52,6 +52,12 @@
 // var_dump($data);
 
 // 9
+// stdClass is PHP's generic empty class, kind of like Object in Java or object in Python
+// $o = new StdClass();
+// $o->x = 'x este o proprietate a lui o';
+// var_dump($o);
+
+// 10
 // $fructe = array("mar", "para", "kiwi");
 // var_export($fructe);
 // var_dump($fructe);
@@ -59,15 +65,15 @@
 // echo $fructe;
 // print($fructe);
 
-//10 
+//11 
 // $car[0][0] = "GM";
 // $car[0][1] = "Cobalt";
 // $car[0][2] = "Onix";
 // $car[0][3] = "Camaro";
 
 // $car[1][0] = "Ford";
-// $car[1][1] = "Fiesta";
-// $car[1][2] = "Fusion";
-// $car[1][3] = "Eco Sport";
+// $car[1][] = "Fiesta";
+// $car[1][] = "Fusion";
+// $car[1][] = "Eco Sport";
 // var_export($car);
 // echo $car[1][2];

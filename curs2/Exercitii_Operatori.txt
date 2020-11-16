@@ -152,7 +152,7 @@ print("<br/>");
 
 $username2 = isset($user) ? $user : 'not access';
 print($username2);
-
+?>
 22.Ce v-a afisa urmatorul code PHP?
 $x = true;
 $y = false;
@@ -164,4 +164,25 @@ var_dump($z);
 var_dump($w);
 
 // atentie la prioritate: = are prioritate mai mare decat and
-?>  
+
+23. Ce v-a afisa urmatorul code PHP?
+$a = [
+    1, 
+    2,
+    'one' => 'a1',
+    'two' => 'a2'
+];
+
+$b = [
+    2, 
+    3,
+    'two' => 'b2',
+    'three' => 'b3'
+];
+
+var_dump($a + $b);
+//array_merge($a, $b);
+//array_replace($a, $b); 
+
+24. Ce v-a afisa urmatorul code PHP?
+var_dump(123 == "123abc");
