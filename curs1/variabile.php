@@ -41,7 +41,9 @@
 // 7
 // var_export($_COOKIE);
 // var_dump($_REQUEST);
-// var_dump($_SERVER);
+// echo '<pre>';
+// print_r($_SERVER);
+// echo '<pre>';
 
 // session_start();
 // var_dump($_SESSION);
