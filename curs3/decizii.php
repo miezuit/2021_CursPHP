@@ -116,7 +116,7 @@ switch ($nr) {
         break;
 }
 ?>
-<h2>7. Programul ce afiseaza un calificativ in functie de nota unui student. Nota va fi setata in variabila $nota. 1-4 repetent;5-6 slab;
+<h2>7. Programul ce afiseaza un calificativ in functie de nota unui student. Nota va fi setata in variabila $nota. 1-4 insuficient;5-6 suficient;
 7 – 8 bun; 9-10 burisier;
 </h2>
 <?php
