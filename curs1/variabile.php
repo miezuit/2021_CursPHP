@@ -1,4 +1,7 @@
 <?php
+
+// phpinfo();
+
 // 1
 // $salut = "Hello world!";
 // echo $salut;
@@ -77,3 +80,27 @@
 // $car[1][] = "Eco Sport";
 // var_export($car);
 // echo $car[1][2];
+
+// 12
+// $studenti = array(
+//    'Ion' => array(
+//         'varsta' => 19,
+//         'sex' => 'masculin',
+//         'an' => 'II'
+//     ),
+//     'Ana' => array(
+//         'varsta' => 20,
+//         'sex' => 'feminin',
+//         'an' => 'III'
+//     ),
+//     'Dan' => array(
+//         'varsta' => 19,
+//         'sex' => 'masculin',
+//         'an' => 'I'
+//     ),
+// );
+// $student = array_key_last($studenti); //array_key_first($studenti)
+// echo 'Studentul ' .$student. ' este in anul '.$studenti[$student]['an']. ' si are varsata de '.$studenti[$student]['varsta'].' ani'; 
+
+//$keys = array_keys($studenti);
+//$second = $keys[1]; //Ana
